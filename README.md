@@ -2,26 +2,26 @@ This version is a custom version of Unity's 2D Animation Package. It supports pr
 
 Note that this version of 2D Animation is for 5.0.3, but you can replicate the code for older versions by looking at the files written below. There will be markings with my name or the word CUSTOM in a comment which dictates that you only need to add these lines. In the .uss files, I only change the values of some of the window sizes, namely the one in BoneInspectorPanelStyle.uss as it displays the input fields for position, rotation and length and needed to be larger.
 
-FILES CHANGED:
-SkinningModule.cs
-BoneInspectorPanel.cs
-SkinningEvents.cs
-SkeletonToolView.cs
-SkeletonTool.cs
-SkinningCache.cs
-TextContent.cs
-LayoutOverlay.cs
-VisibilityTool.cs
-BoneInspectorPanelSyle.uss
-LayoutOverlayStyle.uss
-BoneInspectorPanel.uxml
+- FILES CHANGED:
+  - SkinningModule.cs
+  - BoneInspectorPanel.cs
+  - SkinningEvents.cs
+  - SkeletonToolView.cs
+  - SkeletonTool.cs
+  - SkinningCache.cs
+  - TextContent.cs
+  - LayoutOverlay.cs
+  - VisibilityTool.cs
+  - BoneInspectorPanelSyle.uss
+  - LayoutOverlayStyle.uss
+  - BoneInspectorPanel.uxml
 
-How to Install: 
-Go to Unity's Package Manager under the Window tab.
-Click the plus symbol in the top left.
-Click add package from git URL
-Paste this: https://github.com/chibaigames/2D-Animation-Custom.git#upm
-Click Add.
+- How to Install: 
+  1. Go to Unity's Package Manager under the Window tab.
+  2. Click the plus symbol in the top left.
+  3. Click add package from git URL
+  4. Paste this: https://github.com/chibaigames/2D-Animation-Custom.git#upm
+  5. Click Add.
 Voila, you now have precise bone placement in the skinning editor.
 
 Original README below.
