@@ -1,0 +1,12 @@
+SkinningModule.cs
+BoneInspectorPanel.cs
+SkinningEvents.cs
+SkeletonToolView.cs
+SkeletonTool.cs
+SkinningCache.cs
+TextContent.cs
+LayoutOverlay.cs
+VisibilityTool.cs
+BoneInspectorPanelSyle.uss
+LayoutOverlayStyle.uss
+BoneInspectorPanel.uxml

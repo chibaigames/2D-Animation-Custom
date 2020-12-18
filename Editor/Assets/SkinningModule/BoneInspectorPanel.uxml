@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:eui="UnityEditor.UIElements" xmlns:aui="UnityEditor.U2D.Animation">
+  <aui:BoneInspectorPanel name="BoneInspectorPanel" text="Bone Inspector" picking-mode="Ignore">
+    <ui:PopupWindow name="BoneInspectorPopupWindow" text="Bone">
+      <ui:VisualElement name="BoneName" class="form-row">
+        <ui:Label name="BoneNameLabel" text="Name" tooltip ="Name of the bone"/>
+        <ui:TextField name="BoneNameField" class="form-editor" />
+      </ui:VisualElement>
+      <ui:VisualElement name="BoneDepth" class="form-row">
+        <ui:Label name="BoneDepthLabel" text="Depth" tooltip ="Depth value of the bone"/>
+        <eui:IntegerField name="BoneDepthField" class="form-editor" />
+      </ui:VisualElement>
+      <!--CUSTOM-->
+      <ui:VisualElement name="BonePosition" class="form-row">
+        <ui:Label name="BonePositionLabel" text="Position" tooltip ="Position values of the bone"/>
+        <eui:Vector3Field name="BonePositionField" class="form-editor" />
+      </ui:VisualElement>
+      <ui:VisualElement name="BoneRotation" class="form-row">
+        <ui:Label name="BoneRotationLabel" text="Rotation" tooltip ="Rotation values of the bone"/>
+        <eui:Vector3Field name="BoneRotationField" class="form-editor" />
+      </ui:VisualElement>
+      <ui:VisualElement name="BoneLength" class="form-row">
+        <ui:Label name="BoneLengthLabel" text="Length" tooltip ="Length value of the bone"/>
+        <eui:FloatField name="BoneLengthField" class="form-editor" />
+      </ui:VisualElement>
+      <!--END-->
+    </ui:PopupWindow>
+  </aui:BoneInspectorPanel>
+</UXML>
